@@ -57,7 +57,7 @@ class Car {
       $status = round((100 * $this->fuel / $this->maxFuel), 2) . '%';
     }
     return $status;
-    }
+  }
 }
 
 class TV {
